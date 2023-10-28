@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Form Validation</legend>
+
+      <form action="">
+        <label for="">Name:</label>
+        <input
+          type="text"
+          pattern="[A-Za-z]{6}"
+          name=""
+          id="inp1"
+          required
+          placeholder="Name.........[]"
+          minlength="0"
+          maxlength="6"
+        />
+        <br /><br />
+
+        <label for="">Telephone:</label>
+        <input type="tel" pattern="[0-9]{10}"id=:"inp2" placeholder="Movile
+        Number......">
+        <br /><br />
+
+        <label for="">Age:</label>
+        <input type="number" id="inp3" name="" min="1" max=" 5" />
+        <br /><br />
+
+        <label for="">DOB:</label>
+        <input type="date" name="" id="" min="1999-01-01" max="2021-12-31" />
+        <br /><br />
+
+        <label for="">Choose File:</label>
+        <input type="file" name="" id="" aceept=".html,.jpg" multiple />
+        <br /><br />
+
+        <input type="text" value="Megha" disabled />
+        <br /><br />
+
+        <input type="submit" value="submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>
